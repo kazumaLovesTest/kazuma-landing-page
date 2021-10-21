@@ -68,21 +68,30 @@ body{
     flex-wrap: wrap;
 }
 .information h1{
-    
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
+    
 }
 .cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .card img{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width:100px;
+    border-radius: 10px;
     /* display: flex; */
 }
 .card {
-
-    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+}
+.card p {
+    text-align: center; 
+    color: #838a94;
+    margin: 0px;
 }
