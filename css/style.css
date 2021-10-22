@@ -40,6 +40,7 @@ body{
 .hero {
     justify-content: center;
     padding: 60px;
+    gap:35px;
 }
 .text {
     display: flex;
@@ -80,10 +81,11 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap:25px;
 }
 .card img{
-    height: 150px;
-    width:150px;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
     /* display: flex; */
 }
@@ -101,6 +103,7 @@ body{
 }
 .quote {
     display: flex;
+    padding: 25px;
     flex-wrap: wrap;
     justify-content: center;
     background: #e5e7eb;
@@ -121,11 +124,12 @@ body{
     font-style: italic;
 }
 .sign {
+    padding: 20px;
     background-color: #3b82f6;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
-    margin: 50px 120px;
+    margin: 75px 120px;
 }
 .sign h3{
     color:white;
@@ -135,8 +139,6 @@ body{
     margin-top: 0;
     color:#cad7ec;
 }
-
-
 .sign button{
     align-self: center;
     border-color: white;
